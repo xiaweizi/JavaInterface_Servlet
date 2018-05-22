@@ -38,12 +38,12 @@ class CommonModel {
     }
 
     public void setSuccess() {
-        setCode(1);
-        setMsg("success");
+        setCode(ConstantUtil.CODE_SUCCESS);
+        setMsg(ConstantUtil.MSG_SUCCESS);
     }
 
     public void setFailed() {
-        setCode(2);
-        setMsg("failed");
+        setCode(ConstantUtil.CODE_FAIL);
+        setMsg(ConstantUtil.MSG_FAIL);
     }
 }

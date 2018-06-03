@@ -14,7 +14,7 @@ import java.util.List;
  */
 
 class DeveloperBusiness {
-    public List<DeveloperModel> getAllDevelopers() {
+    public List<DeveloperModel> getAlavlDevelopers() {
         List<DeveloperModel> developerModelList = new ArrayList<>();
         String sql = "select * from developer";
         DBHelper helper = new DBHelper(sql);
